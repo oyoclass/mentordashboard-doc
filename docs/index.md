@@ -1,17 +1,7 @@
-# Welcome to MkDocs
+# Welcome to the Mentor Dashboard for Schools
 
-For full documentation visit [mkdocs.org](https://mkdocs.org).
-
-## Commands
-
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs help` - Print this help message.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## What is the Mentor Dashboard?
+The Mentor Dashboard is a tool built into the OYOclass platform to help ease
+the burden of checking challenge solutions for mentors by simplifying and
+streamlining the solution checking experience in one convenient central
+interface.
