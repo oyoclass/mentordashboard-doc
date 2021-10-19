@@ -12,5 +12,8 @@ nav:
         - 'The Landing Page': 'sub/check/landing.md'
         - 'The Left Panel': 'sub/check/leftpanel.md'
         - 'The Checking Interface': 'sub/check/checkinginterface.md'
+    - 'My Communities':
+        - 'The All Tab': 'sub/mycomm/all.md'
+        - 'The Older Than 24 Hours Tab': 'sub/mycomm/older24hr.md'
 extra_css:
     - css/doc.css

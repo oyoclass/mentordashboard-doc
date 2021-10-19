@@ -7,4 +7,7 @@ this:
 
 On the left hand side is the list containing all challenges with unchecked
 solutions that you are personally eligible to check within your community
-group.
+group. This list includes all challenges with solutions **that you are**
+**eligible to check.** This means that **every individual mentor in your**
+**community group may have a slightly different view depending on which**
+**communities each mentor has permissions in**.
