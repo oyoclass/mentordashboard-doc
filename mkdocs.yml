@@ -6,7 +6,11 @@ docs_dir: 'docs'
 nav:
     - 'Home': 'index.md'
     - 'Navigation':
-        - 'Accessing the Mentor Dashboard': 'sub/access.md'
-        - 'Inside the Dashboard': 'sub/inside.md'
+        - 'Accessing the Mentor Dashboard': 'sub/navigation/access.md'
+        - 'Inside the Dashboard': 'sub/navigation/inside.md'
+    - 'Check Solutions':
+        - 'The Landing Page': 'sub/check/landing.md'
+        - 'The Left Panel': 'sub/check/leftpanel.md'
+        - 'The Checking Interface': 'sub/check/checkinginterface.md'
 extra_css:
     - css/doc.css

@@ -8,4 +8,4 @@ group, an additional option will be included in your main OYOclass quick-access
 dropdown, pictured here:
 
 
-![Access](/img/home/access.png){: .center}
+![Access](/img/home/access.png){:.center}
