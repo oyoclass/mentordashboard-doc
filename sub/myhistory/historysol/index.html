@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../../img/favicon.ico">
-  <title>The Landing Page - School Mentor Dashboard</title>
+  <title>Reviewing a Checked Solution - School Mentor Dashboard</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../../css/theme.css" type="text/css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "The Landing Page";
-    var mkdocs_page_input_path = "sub/check/landing.md";
+    var mkdocs_page_name = "Reviewing a Checked Solution";
+    var mkdocs_page_input_path = "sub/myhistory/historysol.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -73,23 +73,17 @@
 		
     <span class="caption-text">Check Solutions</span>
     <ul class="subnav">
-                <li class=" current">
+                <li class="">
                     
-    <a class="current" href="./">The Landing Page</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#page-layout">Page Layout</a></li>
-    
-
-    </ul>
+    <a class="" href="../../check/landing/">The Landing Page</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../leftpanel/">The Left Panel</a>
+    <a class="" href="../../check/leftpanel/">The Left Panel</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../checkinginterface/">The Checking Interface</a>
+    <a class="" href="../../check/checkinginterface/">The Checking Interface</a>
                 </li>
     </ul>
 	    </li>
@@ -115,11 +109,26 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../../myhistory/list/">Checking History List</a>
+    <a class="" href="../list/">Checking History List</a>
                 </li>
-                <li class="">
+                <li class=" current">
                     
-    <a class="" href="../../myhistory/historysol/">Reviewing a Checked Solution</a>
+    <a class="current" href="./">Reviewing a Checked Solution</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#accessing-a-solution">Accessing a Solution</a></li>
+    
+
+    <li class="toctree-l3"><a href="#the-left-side-panel">The Left Side Panel</a></li>
+    
+
+    <li class="toctree-l3"><a href="#the-history-solution-view">The History Solution View</a></li>
+    
+
+    <li class="toctree-l3"><a href="#revoking-a-pass">Revoking a Pass</a></li>
+    
+
+    </ul>
                 </li>
     </ul>
 	    </li>
@@ -146,11 +155,11 @@
     
       
         
-          <li>Check Solutions &raquo;</li>
+          <li>My Checking History &raquo;</li>
         
       
     
-    <li>The Landing Page</li>
+    <li>Reviewing a Checked Solution</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -160,17 +169,40 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="page-layout">Page Layout</h2>
-<p>When you either first enter your community's dashboard or click on the
-<strong>Check Solutions</strong> tab, you will be brought to a page that looks similar to
-this:</p>
-<p><img alt="Check Solutions Landing Page" src="../../../img/check/landing.png" /></p>
-<p>On the left hand side is the list containing all challenges with unchecked
-solutions that you are personally eligible to check within your community
-group. This list includes all challenges with solutions <strong>that you are</strong>
-<strong>eligible to check.</strong> This means that <strong>every individual mentor in your</strong>
-<strong>community group may have a slightly different view depending on which</strong>
-<strong>communities each mentor has permissions in</strong>.</p>
+                <h2 id="accessing-a-solution">Accessing a Solution</h2>
+<p>You may access a particular solution from your history by simply clicking on
+it:</p>
+<p><img alt="Accessing a Solution" class="center" src="../../../img/history/list_select_sol.png" /></p>
+<h2 id="the-left-side-panel">The Left Side Panel</h2>
+<p>When you are inside a solution, you will have a left side panel that gives some
+quick information about the solution you are looking at:</p>
+<p><img alt="The Left Side Panel" class="center" src="../../../img/history/sol_left_side_panel.png" /></p>
+<p>If this solution feedback has been audited by one of your community group's
+admins, and they have left a note with the audit, it will also appear in the
+left panel below the overview information:</p>
+<p><img alt="Audit Notes" class="center" src="../../../img/history/sol_left_side_panel_audit_notes.png" /></p>
+<h2 id="the-history-solution-view">The History Solution View</h2>
+<p>Visually, the history solution view looks just like you were checking the
+solution:</p>
+<p><img alt="History Solution" class="center" src="../../../img/history/sol.png" /></p>
+<p>The key difference is that the  <strong>Check</strong> section is replaced with the
+<strong>Assessment</strong> section. Here you can see when you checked the solution, what
+your feedback was, and if you passed this solution, revoke it:</p>
+<p><img alt="Assessment Section" class="center" src="../../../img/history/sol_assessment.png" /></p>
+<h2 id="revoking-a-pass">Revoking a Pass</h2>
+<p>If you ever accidentally pass a solution that should have failed, you may
+revoke the pass at any time, provided the student you are revoking the pass
+from is still a valid member of the community the solution was submitted in:</p>
+<p><img alt="Revoke Button" class="center" src="../../../img/history/sol_revoke_button.png" /></p>
+<p>This will open a window where you are required to give a reason to the student
+why their pass is being revoked. Please note the message at the bottom of this
+window: <strong>This will also revoke the badge from the student if the badge was</strong>
+<strong>earned in the community you are revoking the pass credit from:</strong></p>
+<p><img alt="Revoke Button" class="center" src="../../../img/history/sol_revoke.png" /></p>
+<p>The student will be sent a notification that their pass has been revoked, and
+this information will now appear below the original feedback in the history
+view:</p>
+<p><img alt="Revoke History" class="center" src="../../../img/history/sol_revoke_history.png" /></p>
               
             </div>
           </div>
@@ -178,10 +210,8 @@ group. This list includes all challenges with solutions <strong>that you are</st
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
-        <a href="../leftpanel/" class="btn btn-neutral float-right" title="The Left Panel">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-      
-        <a href="../../navigation/inside/" class="btn btn-neutral" title="Inside the Dashboard"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../list/" class="btn btn-neutral" title="Checking History List"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -207,10 +237,8 @@ group. This list includes all challenges with solutions <strong>that you are</st
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../../navigation/inside/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../list/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
-      
-        <span style="margin-left: 15px"><a href="../leftpanel/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
