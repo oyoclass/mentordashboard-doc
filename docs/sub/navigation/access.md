@@ -7,5 +7,4 @@ school community, or is listed as an admin in a school community group
 group, an additional option will be included in your main OYOclass quick-access
 dropdown, pictured here:
 
-
-![Access](/img/home/access.png){:.center}
+![Access](../../img/home/access.png){:.center}

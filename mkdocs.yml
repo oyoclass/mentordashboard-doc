@@ -15,5 +15,8 @@ nav:
     - 'My Communities':
         - 'The All Tab': 'sub/mycomm/all.md'
         - 'The Older Than 24 Hours Tab': 'sub/mycomm/older24hr.md'
+    - 'My Checking History':
+        - 'Checking History List': 'sub/myhistory/list.md'
+        - 'Reviewing a Checked Solution': 'sub/myhistory/historysol.md'
 extra_css:
     - css/doc.css

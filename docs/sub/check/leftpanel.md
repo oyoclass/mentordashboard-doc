@@ -6,7 +6,7 @@ On the top of the panel is the word **Challenges** with a number on the right
 side. The number on the right indicates the total amount of unique solutions
 you are currently eligible to check within this community group:
 
-![Challenges Label](/img/check/challenges.png){:.center}
+![Challenges Label](../../img/check/challenges.png){:.center}
 
 *Note: This number, as well as the rest of the numbers on the page are*
 *accurate when the page is first loaded. Any solutions that were submitted*
@@ -20,14 +20,14 @@ be reflected in this page's organizational structure. Challenges with unchecked
 solutions will always be rendered under at least one of these categories like
 so:
 
-![Challenge Category](/img/check/challenge_category.png){:.center}
+![Challenge Category](../../img/check/challenge_category.png){:.center}
 
 In this case, the category name is **test!**, and the black number on the right
 side of the label is how many solutions remain to be checked for this category.
 You may also expand and collapse each category by clicking anywhere on the
 label:
 
-![Challenge Category Collapsed](/img/check/challenge_category_collapsed.png){:.center}
+![Challenge Category Collapsed](../../img/check/challenge_category_collapsed.png){:.center}
 
 #### Foreign Challenges
 Foreign challenges (challenges originally created outside your own community
@@ -38,7 +38,7 @@ that group. As an example, if your community had a challenge named
 was part of **A challenge category named Python by kidOYO**, it would look like
 this on your dashboard:
 
-![Foreign Challenge Category](/img/check/challenge_category_foreign.png){:.center}
+![Foreign Challenge Category](../../img/check/challenge_category_foreign.png){:.center}
 
 *Note: Your group's admins may not configure any foreign installed challenges*
 *into a domestic category*
@@ -47,7 +47,7 @@ this on your dashboard:
 Any challenge that is associated with two or more categories will be rendered
 under each category individually as shown here:
 
-![Multiple Challenge Categories](/img/check/challenge_category_multiple.png){:.center}
+![Multiple Challenge Categories](../../img/check/challenge_category_multiple.png){:.center}
 
 In this example, the challenge **iiii's Challenge** appears in categories
 **test!**, **test2**, and **test3**. When checking this challenge and the count
@@ -60,7 +60,7 @@ reflect the new count.
 Any challenge in your group that has no categories set will appear instead in
 a default category with the label **Uncategorized** at the bottom of this list:
 
-![The Uncategorized Category](/img/check/challenge_category_uncategorized.png){:.center}
+![The Uncategorized Category](../../img/check/challenge_category_uncategorized.png){:.center}
 
 
 #### Challenges In Review
@@ -70,4 +70,4 @@ special color with the title **In Review By Me**. Clicking any challenge in
 this special category will immediately load one of the *solutions you*
 *currently have in review for this challenge*
 
-![The In Review by Me Category](/img/check/challenge_category_in_review.png){:.center}
+![The In Review by Me Category](../../img/check/challenge_category_in_review.png){:.center}
