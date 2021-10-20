@@ -18,5 +18,8 @@ nav:
     - 'My Checking History':
         - 'Checking History List': 'sub/myhistory/list.md'
         - 'Reviewing a Checked Solution': 'sub/myhistory/historysol.md'
+    - 'Challenge Config':
+        - 'Challenge Config Tab': 'sub/clgconfig/list.md'
+        - 'Dashboard Category Config Tab': 'sub/clgconfig/catconfig.md'
 extra_css:
     - css/doc.css

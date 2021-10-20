@@ -24,3 +24,16 @@ another mentor, the status will appear as **REVOKED**
 will also appear next to the assessment label as **AUDITED**
 
 ![Audited and Revoked History Labels](../../img/history/list_audited_revoked.png){:.center}
+
+## Filtering
+To further refine which solutions you wish to review in your history, you may
+filter solutions by the following:
+
+1. Which category the challenge belongs to
+2. The name of the challenge
+3. Whether the assessment is a pass or a fail
+
+![History List Filters](../../img/history/list_filter.png){:.center}
+
+*Note: The Subfilter section is contextual to which main filter is chosen. it*
+*is a dropdown for Challenge Category, and a text input for Challenge Name.*
