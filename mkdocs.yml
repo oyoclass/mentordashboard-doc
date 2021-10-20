@@ -21,5 +21,8 @@ nav:
     - 'Challenge Config':
         - 'Challenge Config Tab': 'sub/clgconfig/list.md'
         - 'Dashboard Category Config Tab': 'sub/clgconfig/catconfig.md'
+    - 'Audit Feedback':
+        - 'Audit Feedback List': 'sub/audit/list.md'
+        - 'Audit Solution': 'sub/audit/sol.md'
 extra_css:
     - css/doc.css
