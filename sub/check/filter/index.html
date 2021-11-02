@@ -8,7 +8,7 @@
   
   
   <link rel="shortcut icon" href="../../../img/favicon.ico">
-  <title>Audit Solution - School Mentor Dashboard</title>
+  <title>Filtering the View - School Mentor Dashboard</title>
   <link href='https://fonts.googleapis.com/css?family=Lato:400,700|Roboto+Slab:400,700|Inconsolata:400,700' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="../../../css/theme.css" type="text/css" />
@@ -18,8 +18,8 @@
   
   <script>
     // Current page data
-    var mkdocs_page_name = "Audit Solution";
-    var mkdocs_page_input_path = "sub/audit/sol.md";
+    var mkdocs_page_name = "Filtering the View";
+    var mkdocs_page_input_path = "sub/check/filter.md";
     var mkdocs_page_url = null;
   </script>
   
@@ -75,19 +75,28 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../../check/landing/">The Landing Page</a>
+    <a class="" href="../landing/">The Landing Page</a>
                 </li>
                 <li class="">
                     
-    <a class="" href="../../check/leftpanel/">The Left Panel</a>
+    <a class="" href="../leftpanel/">The Left Panel</a>
+                </li>
+                <li class=" current">
+                    
+    <a class="current" href="./">Filtering the View</a>
+    <ul class="subnav">
+            
+    <li class="toctree-l3"><a href="#choosing-a-filter">Choosing a Filter</a></li>
+    
+
+    <li class="toctree-l3"><a href="#solutions-from-specific-groups">Solutions from Specific Groups</a></li>
+    
+
+    </ul>
                 </li>
                 <li class="">
                     
-    <a class="" href="../../check/filter/">Filtering the View</a>
-                </li>
-                <li class="">
-                    
-    <a class="" href="../../check/checkinginterface/">The Checking Interface</a>
+    <a class="" href="../checkinginterface/">The Checking Interface</a>
                 </li>
     </ul>
 	    </li>
@@ -143,23 +152,11 @@
     <ul class="subnav">
                 <li class="">
                     
-    <a class="" href="../list/">Audit Feedback List</a>
+    <a class="" href="../../audit/list/">Audit Feedback List</a>
                 </li>
-                <li class=" current">
+                <li class="">
                     
-    <a class="current" href="./">Audit Solution</a>
-    <ul class="subnav">
-            
-    <li class="toctree-l3"><a href="#accessing-a-solution">Accessing a Solution</a></li>
-    
-
-    <li class="toctree-l3"><a href="#the-left-side-panel">The Left Side Panel</a></li>
-    
-
-    <li class="toctree-l3"><a href="#the-audit-solution-feedback-view">The Audit Solution Feedback View</a></li>
-    
-
-    </ul>
+    <a class="" href="../../audit/sol/">Audit Solution</a>
                 </li>
     </ul>
 	    </li>
@@ -186,11 +183,11 @@
     
       
         
-          <li>Audit Feedback &raquo;</li>
+          <li>Check Solutions &raquo;</li>
         
       
     
-    <li>Audit Solution</li>
+    <li>Filtering the View</li>
     <li class="wy-breadcrumbs-aside">
       
     </li>
@@ -200,43 +197,64 @@
           <div role="main">
             <div class="section">
               
-                <h2 id="accessing-a-solution">Accessing a Solution</h2>
-<p>You may access a particular solution from your history by simply clicking on
-it:</p>
-<p><img alt="Accessing a Solution" class="center" src="../../../img/audit/list_select_sol.png" /></p>
-<h2 id="the-left-side-panel">The Left Side Panel</h2>
-<p>When you are inside a solution, you will have a left side panel that gives some
-quick information about the solution you are looking at:</p>
-<p><img alt="The Left Side Panel" class="center" src="../../../img/audit/sol_left_side_panel.png" /></p>
-<p>As a community group admin, you may choose to mark this solution as audited by
-simply clicking on the <strong>Mark as Audited</strong> button. However, if you choose to
-leave a note with the audit, then two things will happen:</p>
+                <p>In this section, we will expand upon the filtering options available to you in
+the left side panel.</p>
+<h2 id="choosing-a-filter">Choosing a Filter</h2>
+<p>When checking challenge solutions, it may often be the case that you only wish
+to see a particular group of students' submissions rather than everyone's. You
+may accomplish this by filtering by your <strong>community defined member groups</strong>.</p>
+<p>To choose a filter, click on the <strong>Challenges (All)</strong> label at the top of the
+left side panel:</p>
+<p><img alt="Filter Dropdown" class="center" src="../../../img/check/filter_dropdown_closed.png" /></p>
+<p>After Clicking:</p>
+<p><img alt="Filter Dropdown" class="center" src="../../../img/check/filter_dropdown_open.png" /></p>
+<p>In this dropdown, you have three options:</p>
 <ol>
-<li>The mentor being audited will receive an email notifying them one of their
-feedbacks have been audited with a note</li>
-<li>Other community group admins and the mentor being audited will be able to
-see the note.</li>
+<li>
+<p><strong>All solutions</strong>: This is the default view. You can tell you are currently
+in this view by seeing if the label to the right of the word <strong>Challenges</strong>
+reads <strong>(All)</strong>.</p>
+</li>
+<li>
+<p><strong>Solutions from my groups</strong>: This view will only show submissions from
+community members that exist in <em>any of your community defined member groups</em>.
+Please note that these groups are defined by each individual teacher, which
+means this view will be different from teacher to teacher. You can tell you are
+currently in this view by seeing if the label to the right of the word
+<strong>Challenges</strong> reads <strong>(My Groups)</strong>.</p>
+</li>
+<li>
+<p><strong>Solutions from specific groups...</strong>: This will open a popup which will ask
+you which community you wish to select a group from, then which group you wish
+to see submissions from. This view may be useful in the case of wanting to only
+check one specific classroom of students' submissions. You can tell you are
+currently in this view by seeing if the label to the right of the word
+<strong>Challenges</strong> contains your group's name, for example, <strong>(ClassroomA)</strong>.</p>
+</li>
 </ol>
-<p><strong>This is not meant to be a personal notetaking system, nor a private</strong>
-<strong>messaging system. It is meant to be a way to communicate good solution</strong>
-<strong>checking methods to your mentors.</strong> Any community group admin may audit any
-feedback that is not their own, and every admin may edit the audit notes left
-by any other community group admin (with the additional option to resend an
-additional email if the change is significant enough to warrant notifying the
-mentor in question a second time)</p>
-<p><img alt="Edit Audit Note Resend Email" class="center" src="../../../img/audit/sol_edit_audit_note.png" /></p>
-<h2 id="the-audit-solution-feedback-view">The Audit Solution Feedback View</h2>
-<p>Visually, the audit solution feedback view looks just like you were checking
-the solution, or reviewing one of your own feedback histories:</p>
-<p><img alt="History Solution" class="center" src="../../../img/history/sol.png" /></p>
-<p>The only difference between this view and viewing one of your own feedbacks is
-that the mentor is somebody else. <strong>Note that you are still able to revoke</strong>
-<strong>a pass from a solution you have not checked yourself.</strong> This function is
-useful if a mentor passed a solution they shouldn't have, and the solution the
-student submitted is far enough off the mark to warrant a retry.</p>
-<p>If you are revoking a solution's pass, this would most likely warrant leaving
-an audit note to the mentor who originally passed the solution so they don't
-make the same mistake twice.</p>
+<h2 id="solutions-from-specific-groups">Solutions from Specific Groups</h2>
+<p>To expand on the previous section, the specific group popup looks like this
+initially:</p>
+<p><img alt="Filter Popup" class="center" src="../../../img/check/filter_popup_initial.png" /></p>
+<p>You will see that there is only one dropdown for choosing a community, and that
+the <strong>Filter</strong> button is disabled. This button will become clickable once a
+group has been chosen.</p>
+<p>All you need to know to proceed is which community your group is defined in.
+For example, if you wanted to filter by members inside <strong>Example Group 1</strong>, and
+this group is inside <strong>Example Community A</strong>, then you would:</p>
+<ol>
+<li>Select <strong>Example Community A</strong> from the community dropdown</li>
+<li>When the second dropdown appears, select <strong>Example Group 1</strong></li>
+<li>Click the <strong>Filter</strong> button</li>
+</ol>
+<p><img alt="Select a Community" class="center" src="../../../img/check/filter_popup_org_select.png" /></p>
+<p><img alt="Select a Group" class="center" src="../../../img/check/filter_popup_group_select.png" /></p>
+<p><img alt="Click the Filter Button" class="center" src="../../../img/check/filter_popup_filter_button.png" /></p>
+<p>You can tell if you've successfully filtered by your group by checking the
+label to the right of the word <strong>Challenges</strong>:</p>
+<p><img alt="Group Name Label" class="center" src="../../../img/check/filter_group_name.png" />
+<em>Note: if the group's name is too long, to show on one line, it will be</em>
+<em>truncated like shown above</em></p>
               
             </div>
           </div>
@@ -244,8 +262,10 @@ make the same mistake twice.</p>
   
     <div class="rst-footer-buttons" role="navigation" aria-label="footer navigation">
       
+        <a href="../checkinginterface/" class="btn btn-neutral float-right" title="The Checking Interface">Next <span class="icon icon-circle-arrow-right"></span></a>
       
-        <a href="../list/" class="btn btn-neutral" title="Audit Feedback List"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+      
+        <a href="../leftpanel/" class="btn btn-neutral" title="The Left Panel"><span class="icon icon-circle-arrow-left"></span> Previous</a>
       
     </div>
   
@@ -271,8 +291,10 @@ make the same mistake twice.</p>
     <span class="rst-current-version" data-toggle="rst-current-version">
       
       
-        <span><a href="../list/" style="color: #fcfcfc;">&laquo; Previous</a></span>
+        <span><a href="../leftpanel/" style="color: #fcfcfc;">&laquo; Previous</a></span>
       
+      
+        <span style="margin-left: 15px"><a href="../checkinginterface/" style="color: #fcfcfc">Next &raquo;</a></span>
       
     </span>
 </div>
