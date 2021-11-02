@@ -11,6 +11,7 @@ nav:
     - 'Check Solutions':
         - 'The Landing Page': 'sub/check/landing.md'
         - 'The Left Panel': 'sub/check/leftpanel.md'
+        - 'Filtering the View': 'sub/check/filter.md'
         - 'The Checking Interface': 'sub/check/checkinginterface.md'
     - 'My Communities':
         - 'The All Tab': 'sub/mycomm/all.md'
