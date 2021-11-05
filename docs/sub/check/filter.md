@@ -65,3 +65,20 @@ label to the right of the word **Challenges**:
 ![Group Name Label](../../img/check/filter_group_name.png){:.center}
 *Note: if the group's name is too long, to show on one line, it will be*
 *truncated like shown above*
+
+## Setting a Default Filter
+If you find yourself in the situation where you very often use one filter over
+every other including the default **All solutions** view, you may set your
+default view to the currently active filter at any time by clicking the **Set**
+**current filter as my default view** option in the main filter dropdown:
+
+![Set Default Filter](../../img/check/filter_dropdown_set_default.png){:.center}
+
+Now, every time when you visit the solution checking page, the default view
+will be whatever your current filter was. Please note that changes to your
+community member group setups may alter your set default view depending on what
+you had set it to.
+
+**If you wish to reset to the original default view:** Simply choose the
+**All solutions** option from the filter dropdown, then select the **Set**
+**current filter as my default view** option again.
